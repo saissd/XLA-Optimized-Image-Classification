@@ -34,18 +34,18 @@ The output shows:
 
 ---
 
-## **📸 Example Output**
+## 📸 Example Output
 
 ![image](https://github.com/user-attachments/assets/281c6d37-8995-4117-993d-cfb1febafb90)
 
 
-## ** 🛠 Technologies Used**
+##  🛠 Technologies Used
 PyTorch - Deep Learning Framework
 Torchvision - Pretrained Models & Image Processing
 torch-xla - XLA Optimization for TPU
 Google TPU - Fast model inference
 ---
-## **✨ Future Improvements**
+## ✨ Future Improvements
 🔹 Fine-tune ResNet-18 for custom datasets
 🔹 Deploy as an API using FastAPI/Flask
 🔹 Optimize inference on AWS Inferentia
