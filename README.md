@@ -15,7 +15,7 @@ This project implements **ResNet-18** for image classification with **XLA accele
 ```bash
 git clone [https://github.com/YourGitHubUsername/XLA-Image-Classification.git](https://github.com/saissd/XLA-Optimized-Image-Classification.git)
 cd XLA-Image-Classification
-'''
+
 
 ### **2️⃣ Open Google Colab & Upload the Notebook**
 Open XLA_Optimized_Image_Classification.ipynb in Google Colab.
@@ -32,6 +32,7 @@ The output shows:
 🔹 Inference time comparison (CPU vs TPU)
 🔹 Image with classification result
 
+---
 
 ## **📸 Example Output**
 
@@ -43,7 +44,7 @@ PyTorch - Deep Learning Framework
 Torchvision - Pretrained Models & Image Processing
 torch-xla - XLA Optimization for TPU
 Google TPU - Fast model inference
-
+---
 ## **✨ Future Improvements**
 🔹 Fine-tune ResNet-18 for custom datasets
 🔹 Deploy as an API using FastAPI/Flask
