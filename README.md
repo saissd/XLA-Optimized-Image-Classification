@@ -30,7 +30,9 @@ Run all cells in the Colab notebook.
 The model predicts the image class from ImageNet’s 1,000 categories.
 The output shows:
 🔹 Predicted class label
+
 🔹 Inference time comparison (CPU vs TPU)
+
 🔹 Image with classification result
 
 
@@ -42,13 +44,18 @@ The output shows:
 
 ##  🛠 Technologies Used
 PyTorch - Deep Learning Framework
+
 Torchvision - Pretrained Models & Image Processing
+
 torch-xla - XLA Optimization for TPU
+
 Google TPU - Fast model inference
 ---
 ## ✨ Future Improvements
 🔹 Fine-tune ResNet-18 for custom datasets
+
 🔹 Deploy as an API using FastAPI/Flask
+
 🔹 Optimize inference on AWS Inferentia
 
 
