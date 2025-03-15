@@ -12,9 +12,10 @@ This project implements **ResNet-18** for image classification with **XLA accele
 
 ## 🔧 Installation & Setup  
 ### **1️⃣ Clone the Repository**  
-```bash
+bash
 git clone [https://github.com/YourGitHubUsername/XLA-Image-Classification.git](https://github.com/saissd/XLA-Optimized-Image-Classification.git)
 cd XLA-Image-Classification
+
 
 
 ### **2️⃣ Open Google Colab & Upload the Notebook**
