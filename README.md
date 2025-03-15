@@ -17,16 +17,13 @@ git clone [https://github.com/YourGitHubUsername/XLA-Image-Classification.git](h
 cd XLA-Image-Classification
 '''
 
-2️⃣ Open Google Colab & Upload the Notebook
+### **2️⃣ Open Google Colab & Upload the Notebook**
 Open XLA_Optimized_Image_Classification.ipynb in Google Colab.
-3️⃣ Install Dependencies
+### **3️⃣ Install Dependencies**
 Run this in Google Colab:
 
-python
-Copy
-Edit
 !pip install torch torchvision torch-xla
-🚀 How to Use
+### **🚀 How to Use**
 Upload an image (.jpg or .png).
 Run all cells in the Colab notebook.
 The model predicts the image class from ImageNet’s 1,000 categories.
@@ -36,18 +33,18 @@ The output shows:
 🔹 Image with classification result
 
 
-📸 Example Output
+### **📸 Example Output**
 
 ![image](https://github.com/user-attachments/assets/281c6d37-8995-4117-993d-cfb1febafb90)
 
 
-🛠 Technologies Used
+### ** 🛠 Technologies Used**
 PyTorch - Deep Learning Framework
 Torchvision - Pretrained Models & Image Processing
 torch-xla - XLA Optimization for TPU
 Google TPU - Fast model inference
 
-✨ Future Improvements
+### **✨ Future Improvements**
 🔹 Fine-tune ResNet-18 for custom datasets
 🔹 Deploy as an API using FastAPI/Flask
 🔹 Optimize inference on AWS Inferentia
