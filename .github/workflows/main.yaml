@@ -1,0 +1,24 @@
+name: XLA Model Testing
+
+on: [push, pull_request]  # Run this workflow on every push & PR
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Use Ubuntu runner
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+
+    - name: Install dependencies
+      run: |
+        pip install torch torchvision torch-xla
+        pip install -r requirements.txt || echo "No requirements.txt found"
+
+    - name: Run Model Test
+      run: python test_model.py  # Create a test script to validate model predictions
